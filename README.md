@@ -1,1 +1,1 @@
-# Demo
+# Mine-Easy-edition
