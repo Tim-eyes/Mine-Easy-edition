@@ -1,0 +1,89 @@
+.global {
+    margin:10px auto;
+    padding:20px;
+    background:white;
+    width:600px;
+    zoom:1;
+}
+    .global input[type="button"] {
+            padding:2px 10px;
+            margin:5px;
+            font-size:20px;
+            cursor:pointer;
+        }
+        
+
+    .global input[type="radio"],
+    .global fieldset label {
+        cursor:pointer;
+    }
+
+    .global fieldset {
+        margin:10px 0;
+        line-height:25px;
+    }
+
+    .global table {
+        background:white;
+        float:left;
+    }
+    
+        .global table td {
+            border:2px outset ghostwhite;
+            font-size:20px;
+            width:32px;
+            height:32px;
+            text-align:center;
+            cursor:pointer;
+        }
+            
+            .global table td.normal {
+                border:2px solid ghostwhite;
+                background-color:gray;
+            }
+
+            .global table td:hover {
+                background-color:beige;
+            }
+            
+            .global table td.normal:hover {
+                background-color:gray;
+            }
+
+    .global #op {
+        width:180px;
+        float:right;
+        text-align:center;
+    }
+
+    .global .tip {
+        font-size:14px;
+        margin:5px;
+    }
+
+            .global .tip ol li {
+                margin:5px 0;
+                line-height:20px;
+            }
+        
+
+.landMine {
+    background-image:url(mine.png);
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+
+.flag {
+    background-image:url(flag.png);
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.question {
+    background-image:url(question.png);
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+    
